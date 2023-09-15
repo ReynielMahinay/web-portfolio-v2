@@ -1,16 +1,19 @@
 import { NavBar, RightSidebar } from "./components";
-import { Hero, About } from "./sections";
+import { Hero, About, Project } from "./sections";
 
 function App() {
   return (
-    <main className="relative overflow-hidden">
+    <main className="relative max-sm:bg-hero_mobile">
       <NavBar />
+      <RightSidebar />
       <section className="relative">
-        <RightSidebar />
         <Hero />
       </section>
       <section className="">
         <About />
+      </section>
+      <section>
+        <Project />
       </section>
     </main>
   );

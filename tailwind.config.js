@@ -13,6 +13,10 @@ export default {
       backgroundImage: {
         hero: "url('src/assets/images/hero-bg.png')",
         about: "url('src/assets/images/about-bg.png')",
+        project: "url('src/assets/images/project-bg.png')",
+        project2: "url('src/assets/images/project2-bg.png')",
+        hero_mobile: "url('src/assets/images/hero-mobile-bg.png')",
+        about_mobile: "url('src/assets/images/about-mobile-bg.png')",
       },
     },
   },

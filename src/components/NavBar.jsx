@@ -25,7 +25,7 @@ const NavBar = () => {
                 <li key={index} className="py-5">
                   <a
                     href={item.href}
-                    className="text-white font-montserrat font-bold text-4xl"
+                    className="text-semi-white font-montserrat font-bold text-4xl"
                   >
                     {item.label}
                   </a>

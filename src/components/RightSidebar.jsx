@@ -2,8 +2,10 @@ import React from "react";
 
 const RightSidebar = () => {
   return (
-    <nav className="border-2  font-montserrat text-black-gray font-semibold  absolute transform -rotate-90 h-[100px] w-6 -right-9 top-[400px] ">
-      <span className="fixed">reyniel.mahinay.t@gmail.com</span>
+    <nav className=" z-10  fixed transform -rotate-90 h-[30px] w-[270px] -right-[110px] top-[330px] bg-black-gray px-2 ">
+      <span className="relative font-montserrat text-semi-white font-semibold">
+        reyniel.mahinay.t@gmail.com
+      </span>
     </nav>
   );
 };
