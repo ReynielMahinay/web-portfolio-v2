@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navBg: #060b26;
+}
+
+@layer components {
+  .navbar-color {
+    color: #323233;
+  }
+  .nav-bar {
+    width: 100%;
+    height: 10%;
+    display: flex;
+
+    align-items: center;
+    padding: 20px 0px 0px 20px;
+    font-size: 2em;
+    cursor: pointer;
+  }
+  .nav-menu {
+    background-color: #323233;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    padding: 0px 0px 0px 20px;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+  }
+
+  .nav-menu.active {
+    left: 0;
+    transition: 350ms;
+  }
+
+  .navbar-toggle {
+    background-color: #323233;
+    color: white;
+    font-size: 2em;
+    width: 100%;
+    height: 80px;
+    display: flex;
+
+    align-items: center;
+    cursor: pointer;
+  }
+}
