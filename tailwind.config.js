@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      screens: {
+        wide: "1440px",
+      },
       colors: {
         "black-gray": "#323233",
         "semi-white": "#e7e3de",

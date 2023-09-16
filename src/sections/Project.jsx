@@ -2,7 +2,7 @@ import { ProjectCard, ProjectCard2 } from "../components";
 
 const Project = () => {
   return (
-    <section>
+    <section className="max-container ">
       <ProjectCard />
       <ProjectCard2 />
     </section>
