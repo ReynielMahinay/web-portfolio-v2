@@ -12,10 +12,14 @@ const NavBar = () => {
   return (
     <header className="absolute z-10 ">
       <IconContext.Provider value="navbar-color">
-        <div className="nav-bar fixed">
+        <div className="nav-bar fixed max-sm:justify-end max-sm:pr-5">
           <FaIcons.FaBars onClick={showSidebar} />
         </div>
-        <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
+        <nav
+          className={`${
+            sidebar ? "nav-menu active max-sm:-right-[100px]" : "nav-menu"
+          }`}
+        >
           <ul className="nav-menu-items" onClick={showSidebar}>
             <li className="navbar-toggle">
               <AiIcons.AiOutlineClose />

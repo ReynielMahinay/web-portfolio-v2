@@ -9,7 +9,7 @@ const about = () => {
       id="about"
     >
       <div className=" w-full flex flex-col items-end max-sm:items-start max-sm:h-[330px]">
-        <h3 className="font-montserrat tracking-tight	 font-black text-3xl max-sm:text-xl  max-sm:pl-7 text-black-gray pb-10 relative">
+        <h3 className="font-montserrat tracking-tight	 font-black text-3xl max-sm:text-xl  max-sm:pl-8 text-black-gray pb-10 relative">
           ABOUT
         </h3>
         <div
@@ -20,7 +20,7 @@ const about = () => {
           <img
             src={profile}
             alt="profile"
-            className="w-[30%] h-[18%]  max-sm:w-[50%] max-sm:h-[22.5%] absolute top-[780px] left-[230px] max-sm:top-[380px] max-sm:left-[45px] "
+            className="w-[30%] h-[16.5%]  max-sm:w-[50%] max-sm:h-[13%] absolute top-[780px] left-[230px] max-sm:top-[380px] max-sm:left-[45px] "
           />
         </div>
       </div>

@@ -1,9 +1,9 @@
 import { NavBar, RightSidebar } from "./components";
-import { Hero, About, Project } from "./sections";
+import { Hero, About, Project, Footer } from "./sections";
 
 function App() {
   return (
-    <main className="relative max-sm:bg-hero_mobile">
+    <main className="relative ">
       <NavBar />
       <RightSidebar />
       <section className="relative">
@@ -15,6 +15,9 @@ function App() {
       <section>
         <Project />
       </section>
+      <footer>
+        <Footer />
+      </footer>
     </main>
   );
 }

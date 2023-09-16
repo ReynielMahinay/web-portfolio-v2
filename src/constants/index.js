@@ -13,3 +13,12 @@ export const projectList = [
     image: code_saga_web,
   },
 ];
+
+export const contactList = [
+  { title: "reyniel.mahinay.t@gmail.com" },
+  {
+    title: "LinkedIn",
+    href: "https://www.linkedin.com/in/reyniel-mahinay-20327028a/",
+  },
+  { title: "Facebok", href: "https://www.facebook.com/knoxx00/" },
+];
