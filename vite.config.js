@@ -6,8 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      // Add 'framer-motion' to the list of external dependencies
-      external: ["framer-motion"],
+      external: ["/framer-motion"],
     },
   },
 });
