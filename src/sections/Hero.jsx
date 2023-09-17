@@ -19,7 +19,7 @@ const Hero = () => {
           HELLO
         </h1>
 
-        <a href={resume} download="Mahinay, Reyniel T.pdf">
+        <a href={resume} target="_blank ">
           <div className=" bg-black-gray group text-semi-white  mt-[165px] hover:text-black-gray hover:bg-transparent">
             <p className="element font-montserrat  group-hover:translate-x-5 transition-transform  tracking-tight text-4xl font-black px-5 ">
               RESUME
