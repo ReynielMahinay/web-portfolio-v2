@@ -21,4 +21,5 @@ export const contactList = [
     href: "https://www.linkedin.com/in/reyniel-mahinay-20327028a/",
   },
   { title: "Facebok", href: "https://www.facebook.com/knoxx00/" },
+  { title: "Github", href: "https://github.com/ReynielMahinay/" },
 ];

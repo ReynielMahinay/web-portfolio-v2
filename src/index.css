@@ -7,6 +7,9 @@
 :root {
   --navBg: #060b26;
 }
+* {
+  scroll-behavior: smooth;
+}
 
 @layer components {
   .max-container {

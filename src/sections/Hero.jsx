@@ -10,8 +10,11 @@ const Hero = () => {
       overflow-hidden flex flex-row max-sm:flex-col flex-1 justify-center items-start pt-[110px] max-sm:pt-[0] max-sm:pl-3"
       id="home"
     >
-      <BackgroundParticles />
-      <div className=" w-full pr-8 max-sm:pr-0 relative flex flex-col items-end">
+      <div className="block max-sm:hidden">
+        <BackgroundParticles />
+      </div>
+
+      <div className=" w-full pr-8 max-sm:pr-0 relative flex flex-col items-end max-sm:items-start">
         <h1
           className="font-montserrat tracking-tight	 text-9xl max-sm:text-7xl 
         font-black flex flex-1  max-sm:justify-start max-sm:pl-5 max-sm:pt-[90px] text-black-gray"
@@ -19,7 +22,7 @@ const Hero = () => {
           HELLO
         </h1>
 
-        <a href={resume} target="_blank ">
+        <a href={resume} target="_blank " className="max-sm:hidden block">
           <div className=" bg-black-gray group text-semi-white  mt-[165px] hover:text-black-gray hover:bg-transparent">
             <p className="element font-montserrat  group-hover:translate-x-5 transition-transform  tracking-tight text-4xl font-black px-5 ">
               RESUME

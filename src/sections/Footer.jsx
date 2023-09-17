@@ -3,23 +3,24 @@ import Reveal from "../components/Reveal";
 const Footer = () => {
   return (
     <div
-      className="max-container bg-footer max-sm:bg-footer_mobile bg-cover bg-center bg-no-repeat w-full h-[300px]   relative"
+      className="max-container bg-footer max-sm:bg-footer_mobile bg-cover bg-center bg-no-repeat w-full h-[300px] "
       id="contact"
     >
       <div className="w-full pt-[70px] max-sm:pt-[10px] flex flex-1 flex-row max-sm:flex-col">
-        <Reveal>
-          <div className="w-[30%] max-sm:w-full">
+        <div className="w-[30%] max-sm:w-full ">
+          <Reveal>
             <h3
-              className="font-monserrat text-3xl font-extrabold text-black-gray px-10
+              className="font-monserrat text-4xl font-extrabold text-black-gray px-10
              max-sm:px-2 pt-1 max-sm:pt-10 max-sm:text-xl max-sm:pb-2"
             >
               LET'S CONNECT
             </h3>
-          </div>
-        </Reveal>
+          </Reveal>
+        </div>
+
         <div
-          className="bg-white  pt-1 w-[70%] max-sm:w-full flex flex-col flex-1 gap-10  
-        max-sm:gap-4 max-sm:pt-10 max-sm:pb-[40px] max-sm:pl-5"
+          className="bg-white  pt-1 w-[60%] max-sm:w-full flex flex-col flex-1 gap-10  
+        max-sm:gap-4 max-sm:pt-10 max-sm:pb-[30px] max-sm:pl-5 relative"
         >
           <Reveal>
             <div>
@@ -40,7 +41,7 @@ const Footer = () => {
               <h4 className="font-montserrat font-extrabold text-sm text-black-gray">
                 ON THE WEB
               </h4>
-              {contactList.slice(1, 3).map(
+              {contactList.slice(1, 4).map(
                 (
                   contact,
                   index // Display elements 1 and 2
@@ -55,6 +56,11 @@ const Footer = () => {
             </div>
           </Reveal>
         </div>
+      </div>
+      <div className="flex justify-center mt-4 max-sm:mt-0 max-sm:bg-white relative">
+        <p className="font-montserrat text-[12px] font-semibold text-black-gray ">
+          © 2023 reyniel mahinay
+        </p>
       </div>
     </div>
   );
