@@ -6,6 +6,7 @@ const Footer = () => {
       className="max-container bg-footer max-sm:bg-none bg-cover bg-center bg-no-repeat w-full h-[300px] xl:relative"
       id="contact"
     >
+      <div className="w-3 h-3 bg-black rounded-full max-sm:block hidden relative top-[50px] left-[16px]" />
       <div className="w-full pt-[70px] max-sm:pt-[10px] flex flex-1 flex-row max-sm:flex-col ">
         <div className="w-[30%] max-sm:w-full ">
           <Reveal>

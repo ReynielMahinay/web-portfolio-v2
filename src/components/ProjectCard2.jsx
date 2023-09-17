@@ -10,6 +10,8 @@ const ProjectCard2 = () => {
           pt-10 max-sm:p-0 max-sm:pl-10 max-sm:pt-5 max-sm:pb-10"
           key={index}
         >
+          <div className="w-3 h-3 bg-black rounded-full max-sm:block hidden relative top-[85px] -left-[24px]" />
+
           <Reveal>
             <div className=" w-full ">
               <img

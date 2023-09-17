@@ -13,6 +13,7 @@ const about = () => {
         className="flex w-full flex-col  items-end max-sm:items-start 
       max-sm:h-[330px] pt-3 max-sm:pt-9 "
       >
+        <div className="w-3 h-3 bg-black rounded-full max-sm:block hidden relative top-[20px] left-4" />
         <Reveal>
           <h3
             className="font-montserrat tracking-tight	 font-black text-3xl
@@ -31,6 +32,7 @@ const about = () => {
             />
           </Reveal>
         </div>
+        <div className="w-3 h-3 bg-black rounded-full max-sm:block hidden relative -top-[110px] left-4" />
       </div>
       <div className="w-full pt-[85px] max-sm:pt-[0px]   pl-[25px] max-sm:pr-[0px]">
         <Reveal>
@@ -52,6 +54,7 @@ const about = () => {
             attractive, and responsive with great functions websites.
           </p>
         </Reveal>
+        <div className="w-3 h-3 bg-black rounded-full max-sm:block hidden relative -top-[110px] -left-[9px]" />
 
         <Reveal>
           <h3
@@ -61,6 +64,7 @@ const about = () => {
             TECH
           </h3>
         </Reveal>
+        <div className="w-3 h-3 bg-black rounded-full max-sm:block hidden relative -top-[20px] -left-[9px]" />
 
         <Reveal>
           <p

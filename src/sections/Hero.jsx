@@ -21,6 +21,7 @@ const Hero = () => {
         >
           HELLO
         </h1>
+        <div className="w-3 h-3 bg-black rounded-full max-sm:block hidden relative -top-10 left-1" />
 
         <a href={resume} target="_blank " className="max-sm:hidden block">
           <div className=" bg-black-gray group text-semi-white  mt-[165px] hover:text-black-gray hover:bg-transparent">
@@ -29,8 +30,10 @@ const Hero = () => {
             </p>
           </div>
         </a>
+        <div className="w-3 h-3 bg-black rounded-full max-sm:block hidden relative top-10 left-1" />
       </div>
-      <div className="w-full pl-3 pt-[115px] max-sm:pt-[10px] max-sm:pl-6  relative">
+      <div className="w-full pl-3 pt-[115px] max-sm:pt-[0px] max-sm:pl-6  ">
+        <div className="w-3 h-3 bg-black rounded-full max-sm:block hidden relative top-[113px] -left-5" />
         <h3 className="font-montserrat tracking-tight	 font-extrabold text-6xl max-sm:text-3xl text-black-gray">
           I'M REYNIEL <br /> MAHINAY
         </h3>

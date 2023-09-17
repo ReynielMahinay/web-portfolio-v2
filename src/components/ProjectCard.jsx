@@ -13,6 +13,8 @@ const ProjectCard = () => {
         className="  max-sm:px-0 pt-5 max-sm:pt-1  relative
       left-[200px] max-sm:left-[0px] max-sm:-top-8"
       >
+        <div className="w-3 h-3 bg-black rounded-full max-sm:block hidden relative top-[20px] -left-[12px]" />
+
         <Reveal>
           <h3
             className="font-montserrat  tracking-tight  font-black text-4xl text-black-gray relative
@@ -23,6 +25,7 @@ const ProjectCard = () => {
           </h3>
         </Reveal>
       </div>
+      <div className="w-3 h-3 bg-black rounded-full max-sm:block hidden relative top-[70px] -left-[12px]" />
       <Reveal>
         <div className=" max-sm:pl-[10px] relative">
           <img
