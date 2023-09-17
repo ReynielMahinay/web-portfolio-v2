@@ -16,7 +16,7 @@ const Hero = () => {
 
       <div className=" w-full pr-8 max-sm:pr-0 relative flex flex-col items-end max-sm:items-start">
         <h1
-          className="font-montserrat tracking-tight	 text-9xl max-sm:text-7xl 
+          className="font-montserrat tracking-tight	 text-9xl max-sm:text-7xl  
         font-black flex flex-1  max-sm:justify-start max-sm:pl-5 max-sm:pt-[90px] text-black-gray"
         >
           HELLO
