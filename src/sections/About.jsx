@@ -5,7 +5,7 @@ import Reveal from "../components/Reveal";
 const about = () => {
   return (
     <div
-      className="max-container bg-about max-sm:bg-about_mobile bg-center bg-cover bg-no-repeat max-sm:bg-cover w-full 
+      className="max-container bg-about max-sm:bg-none   bg-center bg-cover bg-no-repeat max-sm:bg-cover w-full 
        xl:min-h-screen overflow-hidden flex flex-1 flex-row max-sm:flex-col   "
       id="about"
     >
@@ -36,7 +36,7 @@ const about = () => {
         <Reveal>
           <p
             className="font-normal tracking-tight	  max-sm:ml-3
-        max-sm:h-full text-xl max-sm:text-base text-black-gray prose 
+        max-sm:h-full text-xl max-sm:text-base text-black-gray prose flex flex-wrap
         "
           >
             Based in Hagonoy, Bulacan The Philippines. I am a Graduate

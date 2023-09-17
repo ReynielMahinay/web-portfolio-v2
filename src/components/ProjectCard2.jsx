@@ -6,7 +6,7 @@ const ProjectCard2 = () => {
     <div>
       {projectList.map((project, index) => (
         <div
-          className="max-container bg-project2 max-sm:bg-project_mobile_2 max-sm:bg-cover bg-center bg-cover bg-no-repeat xl:min-h-screen w-full 
+          className="max-container bg-project2 max-sm:bg-none max-sm:bg-cover bg-center bg-cover bg-no-repeat xl:min-h-screen w-full 
           pt-10 max-sm:p-0 max-sm:pl-10 max-sm:pt-5 max-sm:pb-10"
           key={index}
         >

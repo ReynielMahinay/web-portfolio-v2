@@ -6,7 +6,7 @@ import resume from "../assets/Mahinay, Reyniel T.pdf";
 const Hero = () => {
   return (
     <div
-      className=" relative max-container bg-hero max-sm:bg-hero_mobile max-sm:bg-center bg-center bg-no-repeat max-sm:bg-cover w-full xl:min-h-screen 
+      className=" relative max-container bg-hero max-sm:bg-none max-sm:bg-center bg-center bg-no-repeat max-sm:bg-cover w-full xl:min-h-screen 
       overflow-hidden flex flex-row max-sm:flex-col flex-1 justify-center items-start pt-[110px] max-sm:pt-[0] max-sm:pl-3"
       id="home"
     >

@@ -3,10 +3,10 @@ import Reveal from "../components/Reveal";
 const Footer = () => {
   return (
     <div
-      className="max-container bg-footer max-sm:bg-footer_mobile bg-cover bg-center bg-no-repeat w-full h-[300px] "
+      className="max-container bg-footer max-sm:bg-none bg-cover bg-center bg-no-repeat w-full h-[300px] xl:relative"
       id="contact"
     >
-      <div className="w-full pt-[70px] max-sm:pt-[10px] flex flex-1 flex-row max-sm:flex-col">
+      <div className="w-full pt-[70px] max-sm:pt-[10px] flex flex-1 flex-row max-sm:flex-col ">
         <div className="w-[30%] max-sm:w-full ">
           <Reveal>
             <h3
@@ -24,7 +24,7 @@ const Footer = () => {
         >
           <Reveal>
             <div>
-              <h4 className="font-montserrat font-extrabold text-sm text-black-gray">
+              <h4 className="font-montserrat font-extrabold text-sm text-black-gray ">
                 CONTACT
               </h4>
               {contactList.length > 0 && ( // Check if contactList is not empty
