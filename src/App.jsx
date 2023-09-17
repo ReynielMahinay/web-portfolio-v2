@@ -3,7 +3,7 @@ import { Hero, About, Project, Footer } from "./sections";
 
 function App() {
   return (
-    <main className="relative max-sm:bg-mobile max-sm:bg-no-repeat max-sm:bg-contain">
+    <main className="relative max-sm:bg-mobile max-sm:bg-no-repeat max-sm:bg-cover">
       <NavBar />
       <RightSidebar />
       <section className="relative">
