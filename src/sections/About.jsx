@@ -5,9 +5,8 @@ import { AboutBackground } from "../components";
 
 const about = () => {
   return (
-    <div //bg-about
-      className="max-container  max-sm:bg-none   bg-center bg-cover bg-no-repeat max-sm:bg-cover w-full 
-       xl:min-h-screen overflow-hidden flex flex-1 flex-row max-sm:flex-col   "
+    <div
+      className="max-container w-full xl:min-h-screen overflow-hidden flex flex-1 flex-row max-sm:flex-col"
       id="about"
     >
       <AboutBackground /* Line and dot background */ />
@@ -19,7 +18,7 @@ const about = () => {
         <Reveal>
           <h3
             className="font-montserrat tracking-tight	 font-black text-3xl
-           max-sm:text-xl pr-3 max-sm:pl-10 text-black-gray relative"
+           max-sm:text-xl pr-6 max-sm:pl-10 text-black-gray relative"
           >
             ABOUT
           </h3>
@@ -29,14 +28,14 @@ const about = () => {
             <img
               src={profile}
               alt="profile"
-              className="w-[70%] h-[50%] max-sm:w-[60%] max-sm:h-[50%]  max-sm:ml-3   place-self-center
+              className="w-[70%] hadow-2xl shadow-black-500/50 max-sm:w-[60%] max-sm:h-[50%]  max-sm:ml-3  place-self-center 
             "
             />
           </Reveal>
         </div>
         <div className="w-3 h-3 bg-black rounded-full max-sm:block hidden relative -top-[110px] left-4" />
       </div>
-      <div className="w-full pt-[85px] max-sm:pt-[0px]    pl-[25px] max-sm:pr-[0px]">
+      <div className="w-full pt-[85px] max-sm:pt-[0px]    pl-[45px] max-sm:pl-[25px] max-sm:pr-[0px]">
         <Reveal>
           <p
             className="font-normal tracking-tight	  max-sm:ml-3 max-sm:w-[300px]

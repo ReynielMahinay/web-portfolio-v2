@@ -2,12 +2,12 @@ import React from "react";
 import { BackgroundParticles, HeroBackground } from "../components";
 import Reveal from "../components/Reveal";
 import resume from "../assets/Mahinay, Reyniel T.pdf";
-
+import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <div
-      className=" relative max-container  max-sm:bg-none max-sm:bg-center bg-center bg-no-repeat max-sm:bg-cover w-full xl:min-h-screen 
-      overflow-hidden flex flex-row max-sm:flex-col flex-1 justify-center items-start pt-[110px] max-sm:pt-[0] max-sm:pl-3"
+      className=" relative max-container w-full xl:min-h-screen flex flex-row
+       max-sm:flex-col flex-1 justify-center items-start pt-[110px] max-sm:pt-[0] max-sm:pl-3"
       id="home"
     >
       <HeroBackground /* line and dot background*/ />
@@ -32,7 +32,7 @@ const Hero = () => {
         </a>
         <div className="w-3 h-3 bg-black rounded-full max-sm:block hidden relative top-10 left-1" />
       </div>
-      <div className="w-full pl-3 pt-[115px] max-sm:pt-[0px] max-sm:pl-6  relative">
+      <div className="w-full pl-8 pt-[115px] max-sm:pt-[0px] max-sm:pl-6  relative">
         <div className="w-3 h-3 bg-black rounded-full max-sm:block hidden relative top-[113px] -left-5" />
         <h3 className="font-montserrat tracking-tight	 font-extrabold text-6xl max-sm:text-3xl text-black-gray ">
           I'M REYNIEL <br /> MAHINAY

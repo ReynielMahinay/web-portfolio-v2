@@ -4,7 +4,7 @@ import ContactBackground from "../components/Background/ContactBackground";
 const Footer = () => {
   return (
     <div
-      className="max-container max-sm:bg-none bg-cover bg-center bg-no-repeat w-full h-[300px] last:bg-white xl:relative
+      className="max-container w-full h-[300px] last:bg-white xl:relative
        "
       id="contact"
     >

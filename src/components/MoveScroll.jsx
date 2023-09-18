@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 
-const Reveal = ({ children, width = "fit-content" }) => {
+const MoveScroll = ({ children, width = "fit-content" }) => {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef();
   const controls = useAnimation();
@@ -45,4 +45,4 @@ const Reveal = ({ children, width = "fit-content" }) => {
   );
 };
 
-export default Reveal;
+export default MoveScroll;

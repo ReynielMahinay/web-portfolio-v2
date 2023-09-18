@@ -13,7 +13,7 @@
 
 @layer components {
   .max-container {
-    max-width: 1440px;
+    max-width: 1366px;
     margin: 0 auto;
   }
   .navbar-color {

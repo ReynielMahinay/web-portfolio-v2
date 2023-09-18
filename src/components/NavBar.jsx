@@ -7,9 +7,9 @@ import resume from "../assets/Mahinay, Reyniel T.pdf";
 import Reveal from "./Reveal";
 
 const NavBar = () => {
-  const [sidebar, setSidevbar] = useState(false);
+  const [sidebar, setSidebar] = useState(false);
 
-  const showSidebar = () => setSidevbar(!sidebar);
+  const showSidebar = () => setSidebar(!sidebar);
 
   return (
     <header className="absolute z-10  ">
@@ -25,7 +25,7 @@ const NavBar = () => {
             className="max-sm:block hidden max-sm:relative max-sm:left-5 max-sm:top-7"
           >
             <p
-              className="element font-montserrat bg-black-gray
+              className=" font-montserrat bg-black-gray
              tracking-tight text-semi-white text-xl font-black px-5 "
             >
               RESUME
@@ -40,16 +40,14 @@ const NavBar = () => {
             </li>
             {navLinks.map((item, index) => {
               return (
-                <Reveal>
-                  <li key={index} className="py-5">
-                    <a
-                      href={item.href}
-                      className="text-semi-white font-montserrat font-lighter text-4xl"
-                    >
-                      {item.label}
-                    </a>
-                  </li>
-                </Reveal>
+                <li key={index} className="py-5">
+                  <a
+                    href={item.href}
+                    className="text-semi-white font-montserrat font-lighter text-4xl"
+                  >
+                    <Reveal>{item.label}</Reveal>
+                  </a>
+                </li>
               );
             })}
           </ul>

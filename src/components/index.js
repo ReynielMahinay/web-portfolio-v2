@@ -1,5 +1,6 @@
 import NavBar from "./NavBar";
 import { BackgroundParticles } from "./Background/BackgroundParticles";
+import MoveScroll from "./MoveScroll";
 import RightSidebar from "./RightSidebar";
 import ProjectCard from "./ProjectCard";
 import ProjectCard2 from "./ProjectCard2";
@@ -18,4 +19,5 @@ export {
   AboutBackground,
   ProjectBackground,
   ContactBackground,
+  MoveScroll,
 };
