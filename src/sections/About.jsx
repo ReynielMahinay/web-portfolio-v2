@@ -1,14 +1,16 @@
 import React from "react";
 import profile from "../assets/images/profile.jpg";
 import Reveal from "../components/Reveal";
+import { AboutBackground } from "../components";
 
 const about = () => {
   return (
-    <div
-      className="max-container bg-about max-sm:bg-none   bg-center bg-cover bg-no-repeat max-sm:bg-cover w-full 
+    <div //bg-about
+      className="max-container  max-sm:bg-none   bg-center bg-cover bg-no-repeat max-sm:bg-cover w-full 
        xl:min-h-screen overflow-hidden flex flex-1 flex-row max-sm:flex-col   "
       id="about"
     >
+      <AboutBackground /* Line and dot background */ />
       <div
         className="flex w-full flex-col  items-end max-sm:items-start 
       max-sm:h-[330px] pt-3 max-sm:pt-9 "
@@ -34,10 +36,10 @@ const about = () => {
         </div>
         <div className="w-3 h-3 bg-black rounded-full max-sm:block hidden relative -top-[110px] left-4" />
       </div>
-      <div className="w-full pt-[85px] max-sm:pt-[0px]   pl-[25px] max-sm:pr-[0px]">
+      <div className="w-full pt-[85px] max-sm:pt-[0px]    pl-[25px] max-sm:pr-[0px]">
         <Reveal>
           <p
-            className="font-normal tracking-tight	  max-sm:ml-3
+            className="font-normal tracking-tight	  max-sm:ml-3 max-sm:w-[300px]
         max-sm:h-full text-xl max-sm:text-base text-black-gray prose flex flex-wrap
         "
           >

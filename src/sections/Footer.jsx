@@ -1,12 +1,15 @@
 import { contactList } from "../constants";
 import Reveal from "../components/Reveal";
+import ContactBackground from "../components/Background/ContactBackground";
 const Footer = () => {
   return (
     <div
-      className="max-container bg-footer max-sm:bg-none bg-cover bg-center bg-no-repeat w-full h-[300px] xl:relative"
+      className="max-container max-sm:bg-none bg-cover bg-center bg-no-repeat w-full h-[300px] last:bg-white xl:relative
+       "
       id="contact"
     >
-      <div className="w-3 h-3 bg-black rounded-full max-sm:block hidden relative top-[50px] left-[16px]" />
+      <ContactBackground /*Line and dot background */ />
+      <div className="w-3 h-3 bg-black rounded-full max-sm:block hidden relative top-[48px] left-[16px]" />
       <div className="w-full pt-[70px] max-sm:pt-[10px] flex flex-1 flex-row max-sm:flex-col ">
         <div className="w-[30%] max-sm:w-full ">
           <Reveal>

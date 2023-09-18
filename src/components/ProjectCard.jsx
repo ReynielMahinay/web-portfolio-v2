@@ -5,7 +5,7 @@ import Reveal from "./Reveal";
 const ProjectCard = () => {
   return (
     <div
-      className="bg-project max-sm:bg-none bg-center bg-cover bg-no-repeat xl:min-h-screen max-sm: w-full
+      className=" max-sm:bg-none bg-center bg-cover bg-no-repeat xl:min-h-screen max-sm: w-full
      max-sm:pl-7 max-sm:pt-[55px] flex flex-col justify-center items-start"
       id="project"
     >

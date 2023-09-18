@@ -4,6 +4,7 @@ import * as AiIcons from "react-icons/ai";
 import { IconContext } from "react-icons/lib";
 import { navLinks } from "../constants";
 import resume from "../assets/Mahinay, Reyniel T.pdf";
+import Reveal from "./Reveal";
 
 const NavBar = () => {
   const [sidebar, setSidevbar] = useState(false);
@@ -39,14 +40,16 @@ const NavBar = () => {
             </li>
             {navLinks.map((item, index) => {
               return (
-                <li key={index} className="py-5">
-                  <a
-                    href={item.href}
-                    className="text-semi-white font-montserrat font-bold text-4xl"
-                  >
-                    {item.label}
-                  </a>
-                </li>
+                <Reveal>
+                  <li key={index} className="py-5">
+                    <a
+                      href={item.href}
+                      className="text-semi-white font-montserrat font-lighter text-4xl"
+                    >
+                      {item.label}
+                    </a>
+                  </li>
+                </Reveal>
               );
             })}
           </ul>

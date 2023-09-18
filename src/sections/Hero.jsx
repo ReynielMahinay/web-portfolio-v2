@@ -1,19 +1,19 @@
 import React from "react";
-import { BackgroundParticles } from "../components";
+import { BackgroundParticles, HeroBackground } from "../components";
 import Reveal from "../components/Reveal";
 import resume from "../assets/Mahinay, Reyniel T.pdf";
 
 const Hero = () => {
   return (
     <div
-      className=" relative max-container bg-hero max-sm:bg-none max-sm:bg-center bg-center bg-no-repeat max-sm:bg-cover w-full xl:min-h-screen 
+      className=" relative max-container  max-sm:bg-none max-sm:bg-center bg-center bg-no-repeat max-sm:bg-cover w-full xl:min-h-screen 
       overflow-hidden flex flex-row max-sm:flex-col flex-1 justify-center items-start pt-[110px] max-sm:pt-[0] max-sm:pl-3"
       id="home"
     >
+      <HeroBackground /* line and dot background*/ />
       <div className="block max-sm:hidden">
         <BackgroundParticles />
       </div>
-
       <div className=" w-full pr-8 max-sm:pr-0 relative flex flex-col items-end max-sm:items-start">
         <h1
           className="font-montserrat tracking-tight	 text-9xl max-sm:text-7xl  
@@ -25,16 +25,16 @@ const Hero = () => {
 
         <a href={resume} target="_blank " className="max-sm:hidden block">
           <div className=" bg-black-gray group text-semi-white  mt-[165px] hover:text-black-gray hover:bg-transparent">
-            <p className="element font-montserrat  group-hover:translate-x-5 transition-transform  tracking-tight text-4xl font-black px-5 ">
+            <p className="element font-montserrat  group-hover:translate-x-5 transition-transform duration-300 ease-in-out tracking-tight text-4xl font-black px-5 ">
               RESUME
             </p>
           </div>
         </a>
         <div className="w-3 h-3 bg-black rounded-full max-sm:block hidden relative top-10 left-1" />
       </div>
-      <div className="w-full pl-3 pt-[115px] max-sm:pt-[0px] max-sm:pl-6  ">
+      <div className="w-full pl-3 pt-[115px] max-sm:pt-[0px] max-sm:pl-6  relative">
         <div className="w-3 h-3 bg-black rounded-full max-sm:block hidden relative top-[113px] -left-5" />
-        <h3 className="font-montserrat tracking-tight	 font-extrabold text-6xl max-sm:text-3xl text-black-gray">
+        <h3 className="font-montserrat tracking-tight	 font-extrabold text-6xl max-sm:text-3xl text-black-gray ">
           I'M REYNIEL <br /> MAHINAY
         </h3>
         <p
