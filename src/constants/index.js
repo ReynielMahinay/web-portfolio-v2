@@ -1,4 +1,5 @@
 import code_saga_web from "../assets/images/code-saga-web.png";
+import code_saga from "../assets/images/code-saga.png";
 
 export const navLinks = [
   { href: "#home", label: "Home" },
@@ -9,8 +10,14 @@ export const navLinks = [
 
 export const projectList = [
   {
+    title: "Code Saga ",
+    image: code_saga,
+    href: "https://github.com/ReynielMahinay/code-saga",
+  },
+  {
     title: "Code Saga Webpage",
     image: code_saga_web,
+    href: "https://code-saga.vercel.app/",
   },
 ];
 

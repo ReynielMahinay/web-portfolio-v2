@@ -4,14 +4,14 @@ import ContactBackground from "../components/Background/ContactBackground";
 const Footer = () => {
   return (
     <div
-      className="max-container w-full h-[300px] last:bg-white xl:relative
+      className="max-container w-full h-[300px] xl:bg-white md:bg-white max-md:bg-white max-sm:bg-transparent xl:relative md:relative max-md:relative max-sm:relative
        "
       id="contact"
     >
       <ContactBackground /*Line and dot background */ />
       <div className="w-3 h-3 bg-black rounded-full max-sm:block hidden relative top-[48px] left-[16px]" />
       <div className="w-full pt-[70px] max-sm:pt-[10px] flex flex-1 flex-row max-sm:flex-col ">
-        <div className="w-[30%] max-sm:w-full ">
+        <div className="w-[30%] max-md:w-[50%] max-sm:w-full ">
           <Reveal>
             <h3
               className="font-monserrat text-4xl font-extrabold text-black-gray px-10
