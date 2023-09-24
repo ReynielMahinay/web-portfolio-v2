@@ -25,7 +25,7 @@ const HeroBackground = () => {
         initial="initial"
         whileInView="animate"
         transition={linkLeftVaraints}
-        className="w-3 h-3 rounded-full bg-black absolute xl:left-[49.75%] max-xl:left-[49.7%] 
+        className="w-3 h-3 rounded-full bg-black absolute xl:left-[49.70%] max-xl:left-[49.7%] 
         max-lg:left-[49.6%]   max-md:left-[49.5%]  
         xl:top-[170px]  md:top-[160px] max-md:top-[150px]  max-sm:hidden"
       />
@@ -34,7 +34,7 @@ const HeroBackground = () => {
         initial="initial"
         whileInView="animate"
         transition={linkRightVaraints}
-        className="w-3 h-3 rounded-full bg-black absolute xl:left-[49.75%] max-xl:left-[49.7%]  max-lg:left-[49.6%]
+        className="w-3 h-3 rounded-full bg-black absolute xl:left-[49.70%] max-xl:left-[49.7%]  max-lg:left-[49.6%]
         max-md:left-[49.5%]  xl:top-[280px] md:top-[270px]  max-md:top-[267px] max-sm:hidden"
       />
       <motion.div
@@ -42,7 +42,7 @@ const HeroBackground = () => {
         initial="initial"
         whileInView="animate"
         transition={linkLeftVaraints}
-        className="w-3 h-3 rounded-full bg-black absolute xl:left-[49.75%] max-xl:left-[49.7%]
+        className="w-3 h-3 rounded-full bg-black absolute xl:left-[49.70%] max-xl:left-[49.7%]
          max-md:left-[49.5%] max-lg:left-[49.6%] xl:top-[417px] md:top-[400px] max-md:top-[380px] max-sm:hidden"
       />
       <motion.div
@@ -50,7 +50,7 @@ const HeroBackground = () => {
         initial="initial"
         whileInView="animate"
         transition={linkRightVaraints}
-        className="w-3 h-3 rounded-full bg-black absolute xl:left-[49.75%] max-xl:left-[49.7%]  
+        className="w-3 h-3 rounded-full bg-black absolute xl:left-[49.70%] max-xl:left-[49.7%]  
         max-lg:left-[49.6%] max-md:left-[49.5%] xl:top-[547px] md:top-[454px] max-md:top-[450px] max-sm:hidden"
       />
     </div>

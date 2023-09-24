@@ -21,7 +21,7 @@ const ContactBackground = () => {
         whileInView="animate"
         transition={linkBottomVaraints}
         className="w-3 h-3 rounded-full bg-black absolute xl:left-[11%] md:left-[10.9%] max-md:left-[10.7%]  xl:top-[45px] max-xl:top-[2320px]
-         lg:top-[2270px] max-lg:top-[2350px] md:top-[45px] max-md:top-[45px] max-sm:hidden"
+         lg:top-[2270px]  max-lg:top-[2350px] md:top-[45px] max-md:top-[45px] max-sm:hidden"
       />
     </div>
   );

@@ -27,7 +27,7 @@ const AboutBackground = () => {
         initial="initial"
         whileInView="animate"
         transition={linkLeftVariants}
-        className="w-3 h-3 rounded-full bg-black absolute xl:left-[49.75%] max-xl:left-[49.7%] 
+        className="w-3 h-3 rounded-full bg-black absolute xl:left-[49.70%] max-xl:left-[49.7%] 
          max-lg:left-[49.6%] max-md:left-[49.5%]  xl:top-[695px] max-xl:top-[595px] md:top-[563px] max-md:top-[518px] max-sm:hidden"
       />
       <motion.div
@@ -35,7 +35,7 @@ const AboutBackground = () => {
         initial="initial"
         whileInView="animate"
         transistion={linkRightVaraints}
-        className="w-3 h-3 rounded-full bg-black absolute xl:left-[49.75%] max-xl:left-[49.7%] 
+        className="w-3 h-3 rounded-full bg-black absolute xl:left-[49.70%] max-xl:left-[49.7%] 
          max-lg:left-[49.6%] max-md:left-[49.5%] xl:top-[850px] max-xl:top-[790px] md:top-[740px] max-md:top-[650px] max-sm:hidden"
       />
       <motion.div
@@ -43,7 +43,7 @@ const AboutBackground = () => {
         initial="initial"
         whileInView="animate"
         transition={linkLeftVariants}
-        className="w-3 h-3 rounded-full bg-black absolute xl:left-[49.75%] max-xl:left-[49.7%] 
+        className="w-3 h-3 rounded-full bg-black absolute xl:left-[49.70%] max-xl:left-[49.7%] 
          max-lg:left-[49.6%] max-md:left-[49.5%] xl:top-[980px]  max-xl:top-[880px] md:top-[800px] max-md:top-[770px] max-sm:hidden"
       />
       <motion.div
@@ -51,7 +51,7 @@ const AboutBackground = () => {
         initial="initial"
         whileInView="animate"
         transition={linkRightVaraints}
-        className="w-3 h-3 rounded-full bg-black absolute xl:left-[49.75%] max-xl:left-[49.7%]  
+        className="w-3 h-3 rounded-full bg-black absolute xl:left-[49.70%] max-xl:left-[49.7%]  
         max-lg:left-[49.6%] max-md:left-[49.5%] xl:top-[1120px] max-xl:top-[1100px] md:top-[995px] max-md:top-[995px]  max-sm:hidden"
       />
     </div>

@@ -56,7 +56,7 @@ const about = () => {
             and I am one of the developers. But my real goal was to
             <br className="max-sm:hidden" /> be a Front-end Developer with a
             passion for developing clean, <br className="max-sm:hidden" />
-            attractive, and responsive with great functions websites.
+            attractive, and responsive websites.
           </p>
         </Reveal>
         <div className="w-3 h-3 bg-black rounded-full max-sm:block hidden relative -top-[110px] -left-[9px]" />
@@ -74,7 +74,7 @@ const about = () => {
         <Reveal>
           <p
             className="font-montserrat font-semibold xl:text-4xl md:text-2xl max-md:text-xl max-sm:text-lg 
-          max-sm:pl-3 text-semi-white pt-3 leading-[50px] "
+          max-sm:pl-3 text-semi-white pt-3 xl:leading-[50px] "
           >
             <span className="bg-black-gray">HTML</span>{" "}
             <span className="bg-black-gray">CSS</span>{" "}

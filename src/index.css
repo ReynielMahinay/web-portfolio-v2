@@ -7,6 +7,25 @@
 :root {
   --navBg: #060b26;
 }
+
+/* For WebKit browsers like Chrome and Safari */
+::-webkit-scrollbar {
+  width: 12px; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-track {
+  background: #e7e3de; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #323233; /* Thumb color */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Thumb color on hover */
+}
+
 * {
   scroll-behavior: smooth;
 }

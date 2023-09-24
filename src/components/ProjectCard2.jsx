@@ -2,7 +2,7 @@ import { projectList } from "../constants";
 import Reveal from "./Reveal";
 const ProjectCard2 = () => {
   return (
-    <div>
+    <div id="project">
       <div className="w-3 h-3 bg-black rounded-full max-sm:block hidden relative top-[50px] left-[16px] " />
       <Reveal>
         <h3
