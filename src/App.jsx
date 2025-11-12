@@ -1,5 +1,6 @@
 import { NavBar, RightSidebar } from "./components";
 import { Hero, About, Project, Footer } from "./sections";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <footer>
         <Footer />
       </footer>
+      <Analytics />
     </main>
   );
 }
